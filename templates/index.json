@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -6,24 +15,24 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Everything You Need to Ride, Drive & Explore",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Parts and accessories for RV, ATV, UTV, Jeep, Trucks, Motorcycles and more.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop All Categories",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
-            "button_label_2": "",
+            "button_label_2": "Learn More",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -35,14 +44,16 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/sports-car-silhouette.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
+        "image_behavior": "none",
         "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-oem-dark",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
@@ -52,14 +63,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Why Choose Us",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -68,6 +79,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
@@ -77,20 +90,98 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
         "collection": "all",
         "products_to_show": 8,
+        "title": "Featured OEM Parts",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
+        "full_width": false,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_qqBrXX": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "featured-brands",
+        "products_to_show": 4,
+        "title": "Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_Q8bdwi": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_9VU4cg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "engine-parts"
+          }
+        },
+        "featured_collection_Q43TNc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brake-parts"
+          }
+        },
+        "featured_collection_NRKhyn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "suspension"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_9VU4cg",
+        "featured_collection_Q43TNc",
+        "featured_collection_NRKhyn"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Shop By Category",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -127,6 +218,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -136,8 +228,9 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-1",
@@ -151,8 +244,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Free Shipping",
+            "text": "<p>On orders over $99</p>",
             "link_label": "",
             "link": ""
           }
@@ -160,8 +253,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Easy Returns",
+            "text": "<p>Hassle-free returns</p>",
             "link_label": "",
             "link": ""
           }
@@ -169,8 +262,17 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Secure Checkout",
+            "text": "<p>Safe & encrypted</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_L6yweX": {
+          "type": "column",
+          "settings": {
+            "title": "Expert Support",
+            "text": "<p>Auto parts specialists</p>",
             "link_label": "",
             "link": ""
           }
@@ -179,23 +281,58 @@
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "column_L6yweX"
       ],
       "settings": {
-        "title": "",
+        "title": "Why Choose Us",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-4",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "newsletter_VmePmY": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_HrpwDg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Updated",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_kh8Arc": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get special offers and new arrivals first.</p>"
+          }
+        },
+        "email_form_WD6c4M": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_HrpwDg",
+        "paragraph_kh8Arc",
+        "email_form_WD6c4M"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -203,8 +340,11 @@
     "image_banner",
     "rich_text",
     "featured_collection",
+    "featured_collection_qqBrXX",
+    "collection_list_Q8bdwi",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "newsletter_VmePmY"
   ]
 }
