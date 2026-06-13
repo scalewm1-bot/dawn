@@ -115,6 +115,61 @@
         "padding_bottom": 36
       }
     },
+    "collection_list_W4ypxY": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_FWWkbh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nissan-parts"
+          }
+        },
+        "featured_collection_733hFK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toyota-parts"
+          }
+        },
+        "featured_collection_waEeBH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "honda-parts"
+          }
+        },
+        "featured_collection_9YHjYD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bmw-parts"
+          }
+        },
+        "featured_collection_fgJen7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mercedes-parts"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_FWWkbh",
+        "featured_collection_733hFK",
+        "featured_collection_waEeBH",
+        "featured_collection_9YHjYD",
+        "featured_collection_fgJen7"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Shop By Brand",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collection_list_Q8bdwi": {
       "type": "collection-list",
       "blocks": {
@@ -151,35 +206,6 @@
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_cKCzhz": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "best-sellers",
-        "products_to_show": 8,
-        "title": "Best Sellers",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -291,8 +317,8 @@
     "image_banner",
     "rich_text",
     "featured_collection",
+    "collection_list_W4ypxY",
     "collection_list_Q8bdwi",
-    "featured_collection_cKCzhz",
     "multicolumn",
     "newsletter_VmePmY",
     "1781373150a737ff46"
