@@ -57,20 +57,51 @@
         "show_text_below": false
       }
     },
+    "1781376882da6a8a74": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f43ba80_NVTLyj": {
+          "type": "ai_gen_block_f43ba80",
+          "settings": {
+            "heading_text": "Your Trusted Source for Genuine OEM Parts",
+            "font_size": 48,
+            "font_weight": "700",
+            "line_height": 1.2,
+            "text_alignment": "center",
+            "text_color": "#e06820",
+            "background_color": "#142240",
+            "glow_color": "#e06820",
+            "glow_blur": 20,
+            "glow_horizontal": 0,
+            "glow_vertical": 0,
+            "desktop_width_percent": 100,
+            "padding_top": 60,
+            "padding_bottom": 60,
+            "padding_horizontal": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f43ba80_NVTLyj"
+      ],
+      "settings": {}
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Why Choose Us",
+            "heading": "Your Trusted Source for Genuine OEM Parts",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>At Adventure Club Part, we specialize in genuine OEM replacement parts for Toyota, Honda, BMW, Mercedes, Nissan and more. Every part we carry meets the exact manufacturer specifications — so you get the perfect fit, reliable performance, and long-lasting quality your vehicle deserves. Whether you're a professional mechanic or a DIY enthusiast, we've got the right part for the job.</p>"
           }
         }
       },
@@ -81,7 +112,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-oem-dark",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -315,6 +346,7 @@
   },
   "order": [
     "image_banner",
+    "1781376882da6a8a74",
     "rich_text",
     "featured_collection",
     "collection_list_W4ypxY",
