@@ -149,6 +149,12 @@
     "collection_list_W4ypxY": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_QhqPbe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "engine-parts"
+          }
+        },
         "featured_collection_FWWkbh": {
           "type": "featured_collection",
           "settings": {
@@ -181,6 +187,7 @@
         }
       },
       "block_order": [
+        "featured_collection_QhqPbe",
         "featured_collection_FWWkbh",
         "featured_collection_733hFK",
         "featured_collection_waEeBH",
