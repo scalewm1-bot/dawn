@@ -127,30 +127,16 @@
             "collection": "bumper"
           }
         },
-        "featured_collection_9VU4cg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "engine-parts"
-          }
-        },
         "featured_collection_Q43TNc": {
           "type": "featured_collection",
           "settings": {
             "collection": "brake-parts"
           }
-        },
-        "featured_collection_NRKhyn": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "suspension"
-          }
         }
       },
       "block_order": [
         "featured_collection_mMRjgT",
-        "featured_collection_9VU4cg",
-        "featured_collection_Q43TNc",
-        "featured_collection_NRKhyn"
+        "featured_collection_Q43TNc"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
