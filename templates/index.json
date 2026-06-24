@@ -121,6 +121,12 @@
     "collection_list_Q8bdwi": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_mMRjgT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bumper"
+          }
+        },
         "featured_collection_9VU4cg": {
           "type": "featured_collection",
           "settings": {
@@ -141,6 +147,7 @@
         }
       },
       "block_order": [
+        "featured_collection_mMRjgT",
         "featured_collection_9VU4cg",
         "featured_collection_Q43TNc",
         "featured_collection_NRKhyn"
